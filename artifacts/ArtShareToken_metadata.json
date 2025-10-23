@@ -386,6 +386,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burnFromVault",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -742,6 +760,9 @@
 				"balanceOf(address)": {
 					"details": "Returns the value of tokens owned by `account`."
 				},
+				"burnFromVault(address,uint256)": {
+					"details": "قبل از فراخوانی، دارنده باید approve(vault, amount) داده باشد."
+				},
 				"constructor": {
 					"params": {
 						"artworkTokenId_": "شناسه NFT پایه",
@@ -796,6 +817,9 @@
 				},
 				"artworkTokenId()": {
 					"notice": "شناسه NFT اصلی"
+				},
+				"burnFromVault(address,uint256)": {
+					"notice": "سوزاندن سهم‌ها توسط Vault (برای فرایند claim)"
 				},
 				"decimals()": {
 					"notice": "تعداد اعشار توکن"
@@ -979,11 +1003,11 @@
 			]
 		},
 		"ArtShareToken.sol": {
-			"keccak256": "0x5a65e197eb92a7e646e1ea9b83b0e4a45e6490a0aa785fde684b89aa3ee0ac2e",
+			"keccak256": "0x259057f513a13642580fc9634a301f61ea5910dbf58ac3c6bce1e59c31e09681",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7d924ef555d9df4c39c7b4a2637d1faa424ea6fa747f22b495e7e810915ec837",
-				"dweb:/ipfs/QmeMEYB6yaxFQ3P3N9VTFYLf8LxAwwCcbxuoqQkNrMh17z"
+				"bzz-raw://699f73cbc9bcd81b62e6eb199c64329066a7464b49899ddfd74ae7c84f7a4bcf",
+				"dweb:/ipfs/QmPpzkACezek3EAM6Bs5NiaRUfWwzVoMtXV1oNT7UmQWTr"
 			]
 		}
 	},

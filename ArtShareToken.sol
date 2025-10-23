@@ -84,4 +84,15 @@ contract ArtShareToken is ERC20, ERC20Permit {
     {
         return (vault, artwork, artworkTokenId);
     }
+
+        /**
+     * @notice سوزاندن سهم‌ها توسط Vault (برای فرایند claim)
+     * @dev قبل از فراخوانی، دارنده باید approve(vault, amount) داده باشد.
+     */
+    function burnFromVault(address from, uint256 amount) external {
+        require(msg.sender == vault, "AST: only vault");
+        _spendAllowance(from, msg.sender, amount); // مصرف مجوز
+        _burn(from, amount);
+    }
+
 }
