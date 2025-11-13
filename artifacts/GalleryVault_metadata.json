@@ -287,11 +287,11 @@
 	},
 	"sources": {
 		"GalleryVault2.sol": {
-			"keccak256": "0x9ee89a8a6818766a6f14cfc97313816fa840056d6e4e27f07a5bf024f74fd7b8",
+			"keccak256": "0x62a19c273d8dd0c5c99b5cb8455b90724c3d5a61d24ad2bacf92ef45cd11d12d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15f946b86fd58e52c6d7cf62279dfd7985ebf676ffcdb6cbe747e1ce309de6e8",
-				"dweb:/ipfs/QmWPuHy6FLX1AUnJGA1fWzufi9eV177T3PymfdHohFgWVZ"
+				"bzz-raw://0c175372304e3a721bcc20ee47450d81943e929d1aa2723c863b03b37fb0838d",
+				"dweb:/ipfs/QmVha8AWwtQhWXnzru1N4quBST2AxAw8vmcgZNjGxZ2p3C"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {

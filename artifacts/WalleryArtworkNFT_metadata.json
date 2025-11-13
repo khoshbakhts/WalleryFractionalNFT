@@ -789,11 +789,11 @@
 	},
 	"sources": {
 		"WalleryArtworkNFT2.sol": {
-			"keccak256": "0x6ba1952d40518997d747bf4c9c911b5ff12305848814c2bf03798724c17ae732",
+			"keccak256": "0x766d2a869636d27aa92aafc3698c2e42cc822788d0e9eae894bda35623b1f488",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://78029f8f1e30b7443a4157baa3cc98110274aeacb43586cbcdaa5ceeb11e2e6b",
-				"dweb:/ipfs/QmThhN3AJVEvYURLKMxCupiaq1m9jwTaKwbh8rhefXbuzY"
+				"bzz-raw://a9c046e111387a91f596317710106fa54c6bb03d92a289d771a03b7ddb85e5ad",
+				"dweb:/ipfs/QmURX1z6SiT8FHBLdq7og2DpKa6DKdaDxP1PF1iq6WseH5"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {

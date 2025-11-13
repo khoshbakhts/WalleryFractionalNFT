@@ -597,9 +597,9 @@
 				},
 				"constructor": {
 					"params": {
-						"maxSupply_": "سقف عرضه در smallest units (مثلاً: 100000 * 10**2)",
-						"name_": "نام توکن (مثلاً: \"Water Collection 01 Shares\")",
-						"symbol_": "سمبل توکن (مثلاً: \"WTR1\")"
+						"maxSupply_": "سقف عرضه در ",
+						"name_": "نام توکن ",
+						"symbol_": "سمبل توکن "
 					}
 				},
 				"name()": {
@@ -639,7 +639,7 @@
 					"notice": "تعداد اعشار توکن (۲)"
 				},
 				"mintTo(address,uint256)": {
-					"notice": "مینت کردن توکن‌ها توسط Vault (مثلاً هنگام fractionalize)"
+					"notice": "مینت کردن توکن‌ها توسط Vault (هنگام fractionalize)"
 				},
 				"setVault(address)": {
 					"notice": "تنظیم آدرس Vault (فقط یک‌بار توسط owner)"
@@ -668,11 +668,11 @@
 	},
 	"sources": {
 		"ArtShareToken2.sol": {
-			"keccak256": "0x05ed3fec1c55ec5306487214e80fe0b7f5398b0c42ca1c49534d068c1fa7cd7f",
+			"keccak256": "0x1cc68d9e3f9da7de88a799fc38ad3007e30ab552bf5caaa3d9b6e2d1910e4acf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://305e90aebd67155a5d4aad6ecc45742b2f09840a38345ba03ad372f187c9b5df",
-				"dweb:/ipfs/QmdQPk4AVrSqiHBZMe4EXYUbmnqBekpQjfxymfEyybQBbw"
+				"bzz-raw://678d242caffd649382e83950e0fc431f9bf71c96f4cfafa8b14ae0c91d12629c",
+				"dweb:/ipfs/QmfGhS7cQYP3BdyB1vNLJC9eAzZsbwCHAm6rJmx1RmmWYd"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {

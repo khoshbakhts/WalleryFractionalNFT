@@ -34,9 +34,9 @@ contract ArtShareToken is ERC20, Ownable {
     }
 
     /**
-     * @param name_ نام توکن (مثلاً: "Water Collection 01 Shares")
-     * @param symbol_ سمبل توکن (مثلاً: "WTR1")
-     * @param maxSupply_ سقف عرضه در smallest units (مثلاً: 100000 * 10**2)
+     * @param name_ نام توکن 
+     * @param symbol_ سمبل توکن 
+     * @param maxSupply_ سقف عرضه در 
      */
     constructor(
         string memory name_,
@@ -61,7 +61,7 @@ contract ArtShareToken is ERC20, Ownable {
         emit VaultSet(_vault);
     }
 
-    /// @notice مینت کردن توکن‌ها توسط Vault (مثلاً هنگام fractionalize)
+    /// @notice مینت کردن توکن‌ها توسط Vault (هنگام fractionalize)
     function mintTo(address to, uint256 amount) external onlyVault {
         require(
             totalSupply() + amount <= MAX_SUPPLY,
