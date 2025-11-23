@@ -236,12 +236,6 @@
 			},
 			"kind": "dev",
 			"methods": {
-				"constructor": {
-					"params": {
-						"_artworkNFT": "آدرس قرارداد NFT (مثل WalleryArtworkNFT)",
-						"_shareToken": "آدرس قرارداد توکن سهم (ArtShareToken)"
-					}
-				},
 				"owner()": {
 					"details": "Returns the address of the current owner."
 				},
@@ -256,17 +250,7 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"fractionalize()": {
-					"notice": "یک‌بار فرکشنالایز:         مینت کردن کل MAX_SUPPLY از توکن سهم برای owner قرارداد         بعد از اجرا، isFinalized = true می‌شود و دیگر قابل تکرار نیست."
-				},
-				"getArtworkTokenIds()": {
-					"notice": "برگرداندن لیست همه‌ی tokenId های NFTهایی که داخل Vault هستند"
-				},
-				"onERC721Received(address,address,uint256,bytes)": {
-					"notice": "این تابع وقتی صدا زده می‌شود که یک NFT با safeTransferFrom         به این قرارداد ارسال بشود.         اینجا فقط tokenId را ذخیره می‌کنیم."
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
@@ -287,11 +271,11 @@
 	},
 	"sources": {
 		"GalleryVault2.sol": {
-			"keccak256": "0x62a19c273d8dd0c5c99b5cb8455b90724c3d5a61d24ad2bacf92ef45cd11d12d",
+			"keccak256": "0x381fa31bcea62985468e8bed539b33a8995926fff0488ccec8d793b6595ef3e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c175372304e3a721bcc20ee47450d81943e929d1aa2723c863b03b37fb0838d",
-				"dweb:/ipfs/QmVha8AWwtQhWXnzru1N4quBST2AxAw8vmcgZNjGxZ2p3C"
+				"bzz-raw://dc1853aff6776093a28c09831d3d17548de2a6677072736d60a6308b78f0359a",
+				"dweb:/ipfs/QmaSG38B1ScgYPuMrFC5JzA8Yr23XhEe3dnSusbJfYjAJq"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {

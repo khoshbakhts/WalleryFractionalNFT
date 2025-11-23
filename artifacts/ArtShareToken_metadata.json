@@ -595,12 +595,8 @@
 				"balanceOf(address)": {
 					"details": "See {IERC20-balanceOf}."
 				},
-				"constructor": {
-					"params": {
-						"maxSupply_": "سقف عرضه در ",
-						"name_": "نام توکن ",
-						"symbol_": "سمبل توکن "
-					}
+				"decimals()": {
+					"details": "Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`). Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the default value returned by this function, unless it's overridden. NOTE: This information is only used for _display_ purposes: it in no way affects any of the arithmetic of the contract, including {IERC20-balanceOf} and {IERC20-transfer}."
 				},
 				"name()": {
 					"details": "Returns the name of the token."
@@ -631,23 +627,7 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"MAX_SUPPLY()": {
-					"notice": "حداکثر تعداد توکن (در smallest units با در نظر گرفتن decimals)"
-				},
-				"decimals()": {
-					"notice": "تعداد اعشار توکن (۲)"
-				},
-				"mintTo(address,uint256)": {
-					"notice": "مینت کردن توکن‌ها توسط Vault (هنگام fractionalize)"
-				},
-				"setVault(address)": {
-					"notice": "تنظیم آدرس Vault (فقط یک‌بار توسط owner)"
-				},
-				"vault()": {
-					"notice": "آدرس Vault که اجازه مینت دارد"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
@@ -668,11 +648,11 @@
 	},
 	"sources": {
 		"ArtShareToken2.sol": {
-			"keccak256": "0x1cc68d9e3f9da7de88a799fc38ad3007e30ab552bf5caaa3d9b6e2d1910e4acf",
+			"keccak256": "0xd30c092234791ba3d93a4c7d6cd5c94c9fe25cc9f78fd0873288b528cc38d87e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://678d242caffd649382e83950e0fc431f9bf71c96f4cfafa8b14ae0c91d12629c",
-				"dweb:/ipfs/QmfGhS7cQYP3BdyB1vNLJC9eAzZsbwCHAm6rJmx1RmmWYd"
+				"bzz-raw://98abc882382586ce6613340ae9bddc0ea57eaab149df9593c7673c9ef8a0bca2",
+				"dweb:/ipfs/QmQc322GhEYmhajKNCdxNqP8CLNghmnocnRYApyq7HiMsm"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.2/contracts/access/Ownable.sol": {
